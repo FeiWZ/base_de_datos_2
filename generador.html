@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generador de alumnos</title>
-    <script src="./js/functions.js"></script>
+    <script src="./functions.js"></script>
 </head>
 <body>
     numero de registros: <input type="number" id="registros" value="1" min="1" max="50000">
@@ -17,7 +17,7 @@
         <option value="4">JSON</option>
     </Select>
     <input type="button" value="Generar" onclick="generar()">
-    <input type="button" value="Guardar" onclick="exportarArchivo()">
+    <input type="button" value="Guardar" onclick="guardarArchivo()">
     <pre id="salida"></pre>
 </body>
 </html>
